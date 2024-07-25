@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 运行次数
-RUNS=300
+RUNS=100
 
 # 初始化总时间
 total_time_python=0
