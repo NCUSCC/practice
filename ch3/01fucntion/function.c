@@ -21,7 +21,8 @@ void incrementPointer(int *a) {
 void changePointer(int *a) {
     int b = 10;
     a = &b;  // 尝试改变指针 a 的地址，使其指向本地变量 b
-    *a = *a + 1; // 实际上修改的是 b 的值，而不是 main 函数中的变量
+    *a = *a + 1; 
+    printf("%d",b);// 实际上修改的是 b 的值，而不是 main 函数中的变量
 }
 
 int main() {

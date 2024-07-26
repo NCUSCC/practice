@@ -9,7 +9,7 @@ int main() {
     int *arrPtr = arr; // 等价于 int *arrPtr = &arr[0];
     
     // 输出数组的首地址和第一个元素的地址，验证它们是相同的
-    printf("Address of arr: %p\n", (void*)arr);
+    printf("arr: %p\n", (void*)arr);
     printf("Address of arr[0]: %p\n", (void*)&arr[0]);
     
     // 2. 数组访问的语法糖
