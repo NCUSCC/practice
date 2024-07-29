@@ -3,9 +3,9 @@ import time
 
 def compile_and_measure(program_name, language):
     if language == "c":
-        compile_command = f"gcc -O2 {program_name}.c -o {program_name}"
+        compile_command = f"gcc -O3 {program_name}.c -o {program_name}"
     elif language == "cpp":
-        compile_command = f"g++ -O2 {program_name}.cpp -o {program_name}"
+        compile_command = f"g++ -O3 {program_name}.cpp -o {program_name}"
     
     # Measure compile time
     compile_start = time.time()
