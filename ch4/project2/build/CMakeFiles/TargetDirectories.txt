@@ -1,0 +1,3 @@
+/workspaces/practice/ch4/project2/build/CMakeFiles/hello.dir
+/workspaces/practice/ch4/project2/build/CMakeFiles/edit_cache.dir
+/workspaces/practice/ch4/project2/build/CMakeFiles/rebuild_cache.dir
